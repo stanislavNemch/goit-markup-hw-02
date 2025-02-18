@@ -102,8 +102,6 @@ address a{
 }
 
 .block-solution {
-    width: 1440;
-    height: 600;
     background-color: #2E2F42;
 }
 
@@ -114,6 +112,7 @@ address a{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -124,6 +123,7 @@ address a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    text-align: center;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -135,6 +135,7 @@ address a{
 
 .section-title {
     line-height: 40px;
+    text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
