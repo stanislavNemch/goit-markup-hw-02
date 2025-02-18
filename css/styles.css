@@ -29,6 +29,7 @@ h2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -37,7 +38,8 @@ ul {
 }
 
 .about-text {
-    font-family: Roboto;
+    font-family: "Roboto",
+        sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -62,7 +64,8 @@ ul {
 }
 
 .block-nav {
-    font-family: Roboto;
+    font-family: "Roboto",
+        sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -74,20 +77,18 @@ ul {
     color: #2E2F42;
 }
 
-.block-nav a:hover {
+.block-nav a:hover, a:focus {
     color: #404bbf;
 }
 
-.block-nav a:active {
-    border-bottom: 2px solid #404bbf;
-}
-
 .block-contacts {
-    font-family: Roboto;
+    font-family: "Roboto",
+        sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 address a{
@@ -96,7 +97,7 @@ address a{
     color: #434455;
 }
 
-.block-contacts a:hover, a:active{
+.block-contacts a:hover, a:focus{
     color: #404bbf;
 }
 
@@ -104,11 +105,11 @@ address a{
     width: 1440;
     height: 600;
     background-color: #2E2F42;
-    padding: 20px;
 }
 
 .page-title {
-    font-family: Roboto;
+    font-family: "Roboto",
+        sans-serif;
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
@@ -127,13 +128,10 @@ address a{
     text-align: center;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    border: none;
     cursor: pointer;
-    border-radius: 4px;
-    padding: 16px 32px;
 }
 
-.block-solution button:hover, button:active {
+.block-solution button:hover, button:focus {
     background-color: #404BBF;
 }
 
@@ -146,12 +144,12 @@ address a{
     color: #2E2F42;
 }
 
-.team-container {
-    background-color: #FFFFFF;
-}
-
 .block-team {
     background-color: #F4F4FD;
+}
+
+.team-container {
+    background-color: #FFFFFF;
 }
 
 .logo-footer {
@@ -163,9 +161,10 @@ address a{
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.logo-footer span{
+.span-footer {
     color: #f4f4fd;
 }
 
@@ -173,7 +172,7 @@ address a{
     background-color: #2e2f42;
 }
 
-.block-footer p {
+.text-footer {
     font-family: "Roboto",
         sans-serif;
     font-weight: 400;
