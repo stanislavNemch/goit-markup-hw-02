@@ -25,7 +25,7 @@ h2 {
   font-size: 36px;
 }
 
-.about-title {
+.features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -37,7 +37,7 @@ ul {
   list-style-type: none;
 }
 
-.about-text {
+.features-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -61,7 +61,7 @@ ul {
   color: #2e2f42;
 }
 
-.block-nav {
+.nav-list {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -69,17 +69,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.block-nav a {
+.nav-list a {
   text-decoration: none;
   color: #2e2f42;
 }
 
-.block-nav a:hover,
+.nav-list a:hover,
 a:focus {
   color: #404bbf;
 }
 
-.block-contacts {
+.contacts {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -94,16 +94,16 @@ address a {
   color: #434455;
 }
 
-.block-contacts a:hover,
+.contacts a:hover,
 a:focus {
   color: #404bbf;
 }
 
-.block-solution {
+.hero {
   background-color: #2e2f42;
 }
 
-.page-title {
+.hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 56px;
@@ -113,7 +113,7 @@ a:focus {
   color: #ffffff;
 }
 
-.page-title-button {
+.hero-title-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -125,7 +125,7 @@ a:focus {
   cursor: pointer;
 }
 
-.block-solution button:hover,
+.hero button:hover,
 button:focus {
   background-color: #404bbf;
 }
@@ -139,7 +139,7 @@ button:focus {
   color: #2e2f42;
 }
 
-.block-team {
+.team {
   background-color: #f4f4fd;
 }
 
@@ -175,6 +175,6 @@ button:focus {
   color: #f4f4fd;
 }
 
-.team-member {
+.team-list {
   background-color: #ffffff;
 }
